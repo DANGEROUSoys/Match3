@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -131,7 +131,7 @@ TextureImporter:
         width: 212
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,7 +152,7 @@ TextureImporter:
         width: 249
         height: 199
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,7 +173,7 @@ TextureImporter:
         width: 329
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,7 +194,7 @@ TextureImporter:
         width: 243
         height: 225
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_4
+      name: Raccoon
       rect:
         serializedVersion: 2
         x: 1254
@@ -215,7 +215,7 @@ TextureImporter:
         width: 225
         height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,7 +236,7 @@ TextureImporter:
         width: 217
         height: 207
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,7 +257,7 @@ TextureImporter:
         width: 239
         height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_7
+      name: Hare
       rect:
         serializedVersion: 2
         x: 395
@@ -278,7 +278,7 @@ TextureImporter:
         width: 205
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_8
+      name: Panda
       rect:
         serializedVersion: 2
         x: 678
@@ -299,7 +299,7 @@ TextureImporter:
         width: 215
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_9
+      name: Owl
       rect:
         serializedVersion: 2
         x: 984
@@ -320,7 +320,7 @@ TextureImporter:
         width: 206
         height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,7 +341,7 @@ TextureImporter:
         width: 228
         height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,7 +362,7 @@ TextureImporter:
         width: 197
         height: 224
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,7 +375,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_12
+      name: Koala
       rect:
         serializedVersion: 2
         x: 88
@@ -383,7 +383,7 @@ TextureImporter:
         width: 249
         height: 195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,7 +404,7 @@ TextureImporter:
         width: 238
         height: 195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,7 +425,7 @@ TextureImporter:
         width: 246
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,7 +446,7 @@ TextureImporter:
         width: 209
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,7 +459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_16
+      name: Cow
       rect:
         serializedVersion: 2
         x: 1271
@@ -467,7 +467,7 @@ TextureImporter:
         width: 202
         height: 213
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,7 +488,7 @@ TextureImporter:
         width: 219
         height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_18
+      name: Lion
       rect:
         serializedVersion: 2
         x: 68
@@ -509,7 +509,7 @@ TextureImporter:
         width: 283
         height: 279
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 75cbc13aa5f16b2708e15448d702bc32_19
+      name: Giraffe
       rect:
         serializedVersion: 2
         x: 411
@@ -530,7 +530,7 @@ TextureImporter:
         width: 172
         height: 216
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,7 +551,7 @@ TextureImporter:
         width: 192
         height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -572,7 +572,7 @@ TextureImporter:
         width: 195
         height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -593,7 +593,7 @@ TextureImporter:
         width: 205
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,7 +614,7 @@ TextureImporter:
         width: 210
         height: 191
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -641,26 +641,26 @@ TextureImporter:
       75cbc13aa5f16b2708e15448d702bc32_1: -2004461553
       75cbc13aa5f16b2708e15448d702bc32_10: -854297341
       75cbc13aa5f16b2708e15448d702bc32_11: 1249998597
-      75cbc13aa5f16b2708e15448d702bc32_12: 328916340
       75cbc13aa5f16b2708e15448d702bc32_13: 1798715546
       75cbc13aa5f16b2708e15448d702bc32_14: -617073239
       75cbc13aa5f16b2708e15448d702bc32_15: -415024881
-      75cbc13aa5f16b2708e15448d702bc32_16: -391089006
       75cbc13aa5f16b2708e15448d702bc32_17: 709276223
-      75cbc13aa5f16b2708e15448d702bc32_18: 1075829780
-      75cbc13aa5f16b2708e15448d702bc32_19: -845256206
       75cbc13aa5f16b2708e15448d702bc32_2: 838627671
       75cbc13aa5f16b2708e15448d702bc32_20: 750194746
       75cbc13aa5f16b2708e15448d702bc32_21: 314031566
       75cbc13aa5f16b2708e15448d702bc32_22: -1945453014
       75cbc13aa5f16b2708e15448d702bc32_23: -358651538
       75cbc13aa5f16b2708e15448d702bc32_3: -1531641037
-      75cbc13aa5f16b2708e15448d702bc32_4: 809039525
       75cbc13aa5f16b2708e15448d702bc32_5: 1279284705
       75cbc13aa5f16b2708e15448d702bc32_6: -2129705801
-      75cbc13aa5f16b2708e15448d702bc32_7: 231059768
-      75cbc13aa5f16b2708e15448d702bc32_8: -1953542717
-      75cbc13aa5f16b2708e15448d702bc32_9: 1405265857
+      Cow: -391089006
+      Giraffe: -845256206
+      Hare: 231059768
+      Koala: 328916340
+      Lion: 1075829780
+      Owl: 1405265857
+      Panda: -1953542717
+      Raccoon: 809039525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

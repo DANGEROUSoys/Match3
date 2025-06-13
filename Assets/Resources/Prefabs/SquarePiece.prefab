@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3625426104992358498, guid: de51ebc068398b941987da28583c2c8e, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: eeda8e5511ed0494ea45f29b908d1d8c, type: 2}
     - target: {fileID: 4608344312677947343, guid: de51ebc068398b941987da28583c2c8e, type: 3}
       propertyPath: m_Name
       value: SquarePiece
@@ -56,6 +60,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    - target: {fileID: 6827637651967878336, guid: de51ebc068398b941987da28583c2c8e, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827637651967878336, guid: de51ebc068398b941987da28583c2c8e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827637651967878336, guid: de51ebc068398b941987da28583c2c8e, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2544169785595395449, guid: de51ebc068398b941987da28583c2c8e, type: 3}
     m_RemovedGameObjects: []
