@@ -15,6 +15,9 @@ public class Piece : MonoBehaviour
 
     public void Initialize(PieceType pieceType)
     {
+        _colorVisual.sortingOrder = 0;
+        _animalVisual.sortingOrder = 1;
+
         _pieceType = pieceType;
         _piecesConfig = new PiecesConfig();
 
@@ -25,4 +28,13 @@ public class Piece : MonoBehaviour
 
     private void SetAnimalVisual(Sprite sprite) => _animalVisual.sprite = sprite;
     private void SetColorVisual(Color32 color) => _colorVisual.color = color;
+
+    public void MakeThisStatic()
+    {
+        _colorVisual.sortingOrder = 5;
+        _animalVisual.sortingOrder = 6;
+
+        gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        gameObject.GetComponent<Collider2D>().enabled = false;
+    }
 }

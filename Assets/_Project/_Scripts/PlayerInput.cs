@@ -1,19 +1,30 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Zenject;
 
-public class PlayerInput : MonoBehaviour
+public class PlayerInput : MonoBehaviour,IInitializable,IDisposable
 {
+    public static Action<Piece> OnPieceTaked;
+
     private Coroutine _coroutine;
 
-    private void OnEnable()
+    [Inject]
+    public void Construct()
+    {
+
+    }
+
+    public void Initialize()
     {
         PieceCreator.OnSpawnPiecesFinished += StartPlayerInput;
         PieceCreator.OnSpawnPiecesStarted += StopPlayerInput;
     }
-    private void OnDisable()
+
+    public void Dispose()
     {
         PieceCreator.OnSpawnPiecesFinished -= StartPlayerInput;
         PieceCreator.OnSpawnPiecesStarted -= StopPlayerInput;
@@ -44,7 +55,8 @@ public class PlayerInput : MonoBehaviour
                     RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.zero);
                     if (hit.collider != null && hit.collider.TryGetComponent<Piece>(out Piece piece))
                     {
-                        Destroy(piece.gameObject);
+                        OnPieceTaked?.Invoke(piece);
+                        piece.MakeThisStatic();
                     }
                 }
             }
